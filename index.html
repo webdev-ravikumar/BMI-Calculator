@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/BMI Calculator/style.css" />
+    <title>BMI Calculator</title>
+  </head>
+  <body>
+    <h1>Body Mass Index (BMI) Calculator</h1>
+    <form id="myForm">
+      <fieldset>
+        <legend>BMI Calculator</legend>
+        <label for="weight">Enter your Weight</label><br />
+        <input
+          type="text"
+          id="weight"
+          placeholder="weight in KG"
+          required
+        /><br /><br />
+        <label for="height">Enter your Height</label><br />
+        <input
+          type="text"
+          id="height"
+          placeholder="height in inches"
+          required
+        /><br /><br />
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+    <p>Result:</p>
+    <p id="result">Result</p>
+    <p>
+      Here's a more detailed breakdown: <br />
+      Underweight: Below 18.5 <br />
+      Healthy Weight: 18.5 to 24.9 <br />
+      Overweight: 25.0 to 29.9
+    </p>
+
+    <!-- The formula to calculate Body Mass Index (BMI) is:
+      BMI = Weight (in kilograms) / Height (in meters)2 
+      If using pounds and inches, the formula is:
+      BMI = Weight (in pounds) / (Height (in inches)2) x 703 
+
+      Example: 
+      A person weighs 150 pounds and is 5 feet 5 inches (65 inches) tall. 
+      BMI = 150 / (65)2 x 703
+      BMI = 21.9  -->
+
+    <script src="/BMI Calculator/jScript.js"></script>
+  </body>
+</html>

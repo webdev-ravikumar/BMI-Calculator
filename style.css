@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form {
+    width: 400px;
+}
+legend {
+    color: blue;
+}
+#result{
+    background-color: gray;
+    font-size: large;
+    text-align: center;
+    padding: 20px;
+    width: 400px;
+}
+pre {
+    margin: 0;
+    padding: 0;
+}
